@@ -29,4 +29,7 @@ function skillMember() {
     var memberSkill9 = document.getElementById("memberSkill9");
     var memberSkill9Value = memberSkill9.options[memberSkill9.selectedIndex].value;
     var memberSkill9Text = memberSkill9.options[memberSkill9.selectedIndex].text;
-    var memberSkill10 = document.getElementById("memberSkill10
+    var memberSkill10 = document.getElementById("memberSkill10");
+    var memberSkill10Value = memberSkill10.options[memberSkill10.selectedIndex].value;
+    var memberSkill10Text = memberSkill10.options[memberSkill10.selectedIndex].text;
+}
