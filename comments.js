@@ -32,7 +32,7 @@ app.get('/comments/:id', function(req, res){
 //add comment
 app.post('/comments', function(req, res){
   var comment = {
-    id: req.body.id,}
+    id: req.body.id;
     comments.push(comment);
     res.json(comment);
 });
